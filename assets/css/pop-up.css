@@ -1,0 +1,74 @@
+.pokemon-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    z-index: 500;
+    max-width: 50%;
+    max-height: 50%;
+    opacity: 100%;
+}
+
+.close-button {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+}
+
+.popup-content {
+    margin: auto;
+    max-width: 40%;
+    max-height: 40%;
+    border-style: groove;
+}
+
+.popup-content img {
+    border-style: groove;
+    border-radius: 1rem;
+    background-color: rgb(216, 213, 213);
+}
+
+.popup-name {
+    text-align: center;
+}
+
+.popup-number {
+    font-size: medium;
+    color: #000;
+    opacity: .3;
+    text-align: right;
+    margin: .10rem;
+}
+
+.popup-stats {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    color: white;
+    text-align: center;
+    margin: .1rem;
+}
+
+
+@media screen and (min-width: 380px) {
+    .popup-content {
+        max-width: 70%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .popup-content {
+        max-width: 55%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .popup-content {
+        max-width: 40%;
+    }
+}

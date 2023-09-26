@@ -20,6 +20,7 @@
     <!-- Nosso CSS -->
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/pop-up.css">
 </head>
 
 <body>
@@ -29,6 +30,11 @@
         <ol id="pokemonList" class="pokemons">
             <!-- ..... Pokemons here ..... -->
         </ol>
+
+        <div class="pokemon-popup" id="pokemon-popup">
+            <!-- Details content here -->
+            <button id="close-button" class="close-button">Close</button> <!-- Botão de fechar -->
+        </div>
 
         <div class="pagination">
             <button id="loadMoreButton" type="button">
@@ -41,6 +47,7 @@
     <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/poke-api.js"></script>
     <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/pop-up.js"></script>
 </body>
 
 </html>
